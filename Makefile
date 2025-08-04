@@ -23,7 +23,7 @@ OBJDIR = obj
 
 # Diretórios onde os arquivos .cpp serão procurados recursivamente
 # Adicione mais diretórios aqui se necessário
-SRCDIRS = ASCII_Engine src
+SRCDIRS = . ASCII_Engine src
 
 # Encontra todos os arquivos .cpp nos diretórios especificados, recursivamente
 # A função 'wildcard' expande padrões de nome de arquivo.
