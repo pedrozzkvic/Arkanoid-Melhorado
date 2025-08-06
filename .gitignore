@@ -12,6 +12,9 @@ game
 *.o
 obj/
 game
+*.o
+obj/
+game
 *.o/
 *.project
 .clang-format
