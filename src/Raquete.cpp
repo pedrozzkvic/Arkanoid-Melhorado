@@ -19,7 +19,7 @@ void Raquete::MoverDireita() {
 
 void Raquete::Desenhar() {
     SpriteLinha raqueteSprite(std::string(Largura, Caracter));
-    SpriteView raqueteView(raqueteSprite, 0, 0, 1, Largura);
+    SpriteView raqueteView(raqueteSprite, 0, 0, 1, Largura); // Certifique-se que raqueteSprite é SpriteBase&
     raqueteView.moveTo(PosicaoY, PosicaoX);
     raqueteView.draw(raqueteSprite, PosicaoY, PosicaoX);
 }

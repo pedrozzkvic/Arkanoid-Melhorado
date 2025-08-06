@@ -1,4 +1,5 @@
 #include "Bola.hpp"
+
 #include "ASCII_Engine/SpriteView.hpp"
 #include "ASCII_Engine/core/SpriteLinha.hpp"
 

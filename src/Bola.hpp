@@ -1,9 +1,11 @@
 #pragma once
 
-    #include "Bloco.hpp"
+#include "Bloco.hpp"
+#include "Raquete.hpp"
+
 #include <vector>
 
-class Raquete;  // Evita include circular
+
 
 class Bola {
 private:
