@@ -1,6 +1,8 @@
 #pragma once
+
 #include "ASCII_Engine/SpriteView.hpp"
-#include "Raquete.hpp"
+
+class Raquete;
 
 enum TipoPowerUp {
     DUPLICAR_BOLA,

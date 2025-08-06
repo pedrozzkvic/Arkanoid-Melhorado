@@ -52,9 +52,9 @@ $(TARGET): $(OBJECTS)
 	@echo "Build completed successfully!"
 
 # Regra genérica para compilar arquivos .cpp em .o
-# O alvo é $(OBJDIR)/%.o, e o pré-requisito é %.cpp.
+# O alvo/%.o, e o pré-requisito é %.cpp.
 # Isso significa que para criar obj/path/file.o, o make buscará path/file.cpp.
-$(OBJDIR)/%.o: %.cpp | $(OBJDIR)
+$(OBJDIR)/%.o: %.cpp  é $(OBJDIR)| $(OBJDIR)
 	@echo "Compiling $< to $@..."
 	@mkdir -p $(@D) # Cria subdiretórios dentro de OBJDIR se necessário (ex: obj/ASCII_Engine)
 	$(CXX) $(CXXFLAGS) -c $< -o $@

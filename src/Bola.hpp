@@ -1,8 +1,9 @@
 #pragma once
 
-#include "Raquete.hpp"
-#include "Bloco.hpp"
+    #include "Bloco.hpp"
 #include <vector>
+
+class Raquete;  // Evita include circular
 
 class Bola {
 private:
@@ -17,7 +18,7 @@ public:
     void ChecarColisaoRaquete(Raquete& raquete);
     void ChecarColisaoBloco(std::vector<Bloco>& blocos);
 
-    // Métodos auxiliares para acesso e controle
+    // Métodos auxiliares
     int GetX() const;
     int GetY() const;
     void InverterVelocidadeY();
